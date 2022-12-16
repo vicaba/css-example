@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css"></head>
+<body>
+<header>
+    <h1>MyStore</h1>
+    <p>Buy what you want!</p>
+    <nav>
+        <a href="#prod-list">Product List</a>
+        <a href="#register">Register</a>
+    </nav>
+</header>
+<main>
+    <section id="prod-list">
+        <h2>Product list</h2>
+        <ul>
+            <li><p>School set. <a href="./detail.html">See detail</a>.</p></li>
+            <li><p>Our Divine Double</p></li>
+        </ul>
+    </section>
+
+    <section id="register">
+        <h2>Register</h2>
+        <form>
+            <label for="username">Username:</label>
+            <input type="text" name="username" id="username"/>
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password"/>
+            <label for="radio-animalspirit-pikachu">Pikachu</label>
+            <input id="radio-animalspirit-pikachu" type="radio" name="animalspirit" value="pikachu"/>
+            <label for="radio-animalspirit-bulbasaur">Bulbasaur</label>
+            <input id="radio-animalspirit-bulbasaur" type="radio" name="animalspirit" value="bulbasaur"/>
+            <label class="radio" for="radio-animalspirit-other">Other</label>
+            <input id="radio-animalspirit-other" type="radio" name="animalspirit" value="other"/>
+            <label for="other-animalspirit-options">Other options</label>
+            <input id="other-animalspirit-options" list="Options"/>
+            <datalist id="Options">
+                <option value="Option1"></option>
+                <option value="Option2"></option>
+                <option value="Option3"></option>
+            </datalist>
+            <label for="color">Color</label>
+            <input id="color" type="color"/>
+            <input type="submit" value="Submit"/>
+        </form>
+    </section>
+</main>
+</body>
+</html>
