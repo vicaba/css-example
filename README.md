@@ -1,4 +1,4 @@
-# html-example
+# css-example
 
 Basic project that combines HTML5, CSS and Javascript.
 
